@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color:#6b4c1a;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #6b4c1a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.section-title{
+    font-family: 'Pacifico', cursive;
+    border-bottom: 3px dotted #6b4c1a;
+    padding-bottom: 5px;
+}
+
+#sobre-a-sorveteria,
+#cardapio{
+      background-color: #f3d29c;
+}
+
+.text-colored{
+    color: #6b4c1a;
+    font-weight: bold;
+}
+
+
+#imagem-sobre-loja{
+    box-shadow: 6px 6px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.grow:hover
+{
+        transform: scale(1.03);
+        transition: width 2s, height 2s, transform 2s;
+        border: 3px solid #6b4c1a;
+    
+}
+
+article img{
+    height: 270px;
+}
+
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #6b4c1a;
+    color: #fff;
+}
+
+footer{
+    background-color:#6b4c1a;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media(max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+.mensagemError{
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
